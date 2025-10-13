@@ -1,0 +1,28 @@
+// Mod: Elithian Races (Elithian Alliance) (https://steamcommunity.com/sharedfiles/filedetails/?id=850109963)
+// It has a timed Halloween event called "Harrowing".
+// This patch modifies the Harrowing Cache treasure pool to use Haunted Bag's pools and double the neat stuff while excluding the rotten food pool.
+[
+  // Harrowing Cache (contains costumes, candy, and flasks)
+  [
+    {
+      "op" : "test",
+      "path" : "/harrowingTreasurebox"
+    },
+    {
+      "op" : "replace",
+      "path" : "/harrowingTreasurebox",
+      "value" : [
+        1,
+        {
+	        "fill" : [
+            { "pool" : "halloweenSweets" },
+            { "pool" : "halloweenSweets" },
+            { "pool" : "halloweenFlask" },
+            { "pool" : "halloweenCostume" },
+            { "pool" : "halloweenCostume" }
+          ]
+        }
+      ]
+    }
+  ]
+]

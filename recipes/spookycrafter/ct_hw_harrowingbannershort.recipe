@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "pumpkin", "count" : 1 },
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "candyautomato", "count" : 1 }
+  ],
+  "output" : { "item" : "harrowingbannershort", "count" : 1 },
+  "groups" : [
+    "spookysynergy",
+    "spookycrafter",
+    "decoration",
+    "objects",
+    "all"
+  ]
+}

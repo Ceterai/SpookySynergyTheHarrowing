@@ -1,0 +1,143 @@
+// Loot patches for the Haunted Bag from The Spooky Scary Halloween Special mod.
+// These patches add more variety and options from other Halloween mods.
+[
+  // Halloween Sweets (Candy, Treats, etc.)
+  [
+    { "op" : "test", "path" : "/halloweenSweets" },
+    { "op" : "test", "path" : "/halloweenSweets/0" },
+    { "op" : "test", "path" : "/halloweenSweets/0/1" },
+    { "op" : "test", "path" : "/halloweenSweets/0/1/pool" },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandyaqua" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandyblue" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandygreen" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandyorange" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandypink" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenSweets/0/1/pool/-",
+      "value" : { "weight" : 0.4, "item" : "harrowingcandyyellow" }
+    }
+  ],
+  // Halloween Costumes (Masks, Hats, etc.)
+  [
+    { "op" : "test", "path" : "/halloweenCostume" },
+    { "op" : "test", "path" : "/halloweenCostume/0" },
+    { "op" : "test", "path" : "/halloweenCostume/0/1" },
+    { "op" : "test", "path" : "/halloweenCostume/0/1/pool" },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-centenshead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-pumpkinhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-trinkhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-spookyhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "avikan-drodenhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "avikan-sandspitterhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "avikan-theleanhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "avikan-oculushead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "droden-avikanhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "droden-drahlhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "droden-sandcrawlerhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "droden-skullhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "trink-ghost" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "trink-notix" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "trink-pumpkin" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "trink-tentacle" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-ooglerhead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-poptophead" }
+    },
+    {
+      "op" : "add",
+      "path" : "/halloweenCostume/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "aegi-spookithead" }
+    }
+  ]
+]

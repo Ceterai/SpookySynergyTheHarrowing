@@ -1,0 +1,21 @@
+{
+  "input" : [
+    { "item" : "harrowingcandygreen", "count" : 1 },
+    { "item" : "harrowingcandyblue", "count" : 1 },
+    { "item" : "harrowingcandypink", "count" : 1 },
+    { "item" : "harrowingcandyorange", "count" : 1 },
+    { "item" : "harrowingcandyaqua", "count" : 1 },
+    { "item" : "harrowingcandyyellow", "count" : 1 },
+    { "item" : "nzrpumpkin", "count" : 1 },
+    { "item" : "spectralcandle", "count" : 1 },
+    { "item" : "rewardbag", "count" : 1 }
+  ],
+  "output" : { "item" : "harrowingcache", "count" : 1 },
+  "groups" : [
+    "spookysynergy",
+    "spookycrafter",
+    "consumables",
+    "all",
+    "mod"
+  ]
+}

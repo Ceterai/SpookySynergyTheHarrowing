@@ -1,0 +1,39 @@
+[
+    [
+        {
+            "op": "test",
+            "path": "/learnBlueprintsOnPickup"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "harrowingcache"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "harrowingbannershort"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "harrowingbannerlong"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/learnBlueprintsOnPickup",
+            "inverse": true
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup",
+            "value": [
+                "harrowingcache",
+                "harrowingbannershort",
+                "harrowingbannerlong"
+            ]
+        }
+    ]
+]

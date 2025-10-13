@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 2 },
+    { "item" : "essence", "count" : 5 },
+    { "item" : "plantfibre", "count" : 1 }
+  ],
+  "output" : { "item" : "harrowingcandyyellow", "count" : 1 },
+  "groups" : [
+    "spookysynergy",
+    "craftingfood",
+    "snacks",
+    "alta_food",
+    "candies",
+    "candy",
+    "consumables",
+    "all",
+    "mod"
+  ]
+}
