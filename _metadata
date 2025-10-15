@@ -5,5 +5,5 @@
   "includes" : ["Elithian_Races_Mod", "SpookySynergy"],
   "name" : "SpookySynergyTheHarrowing",
   "tags" : "Miscellaneous",
-  "version" : "1.0"
+  "version" : "1.0.0a"
 }

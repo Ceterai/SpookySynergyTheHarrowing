@@ -12,16 +12,18 @@
       "op" : "replace",
       "path" : "/harrowingTreasurebox",
       "value" : [
-        1,
-        {
-	        "fill" : [
-            { "pool" : "halloweenSweets" },
-            { "pool" : "halloweenSweets" },
-            { "pool" : "halloweenFlask" },
-            { "pool" : "halloweenCostume" },
-            { "pool" : "halloweenCostume" }
-          ]
-        }
+        [
+          1,
+          {
+            "fill" : [
+              { "pool" : "halloweenSweets" },
+              { "pool" : "halloweenSweets" },
+              { "pool" : "halloweenFlask" },
+              { "pool" : "halloweenCostume" },
+              { "pool" : "halloweenCostume" }
+            ]
+          }
+        ]
       ]
     }
   ]
